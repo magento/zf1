@@ -1,7 +1,7 @@
 INFORMATION
 ===================
 
-This is a fork from Zend Framework 1.12.16 Release.
+This is a fork from Zend Framework 1.12.19 Release.
 
 PURPOSE
 ---------------------------
