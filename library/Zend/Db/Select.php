@@ -81,7 +81,9 @@ class Zend_Db_Select
     const SQL_ASC        = 'ASC';
     const SQL_DESC       = 'DESC';
 
-    const REGEX_COLUMN_EXPR = '/^([\w]*\(([^\(\)]|(?1))*\))$/';
+    const REGEX_COLUMN_EXPR       = '/^([\w]*\s*\(([^\(\)]|(?1))*\))$/';
+    const REGEX_COLUMN_EXPR_ORDER = '/^([\w]+\s*\(([^\(\)]|(?1))*\))$/';
+    const REGEX_COLUMN_EXPR_GROUP = '/^([\w]+\s*\(([^\(\)]|(?1))*\))$/';
 
     /**
      * Bind variables for query
@@ -511,7 +513,7 @@ class Zend_Db_Select
         }
 
         foreach ($spec as $val) {
-            if (preg_match(self::REGEX_COLUMN_EXPR, (string) $val)) {
+            if (preg_match(self::REGEX_COLUMN_EXPR_GROUP, (string) $val)) {
                 $val = new Zend_Db_Expr($val);
             }
             $this->_parts[self::GROUP][] = $val;
@@ -603,7 +605,7 @@ class Zend_Db_Select
                     $val = trim($matches[1]);
                     $direction = $matches[2];
                 }
-                if (preg_match(self::REGEX_COLUMN_EXPR, $val)) {
+                if (preg_match(self::REGEX_COLUMN_EXPR_ORDER, (string) $val)) {
                     $val = new Zend_Db_Expr($val);
                 }
                 $this->_parts[self::ORDER][] = array($val, $direction);
@@ -940,6 +942,7 @@ class Zend_Db_Select
             $currentCorrelationName = $correlationName;
             if (is_string($col)) {
                 // Check for a column matching "<column> AS <alias>" and extract the alias name
+                $col = trim(str_replace("\n", ' ', $col));
                 if (preg_match('/^(.+)\s+' . self::SQL_AS . '\s+(.+)$/i', $col, $m)) {
                     $col = $m[1];
                     $alias = $m[2];
