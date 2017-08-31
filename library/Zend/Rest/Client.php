@@ -175,13 +175,14 @@ class Zend_Rest_Client extends Zend_Service_Abstract
      *
      * @param mixed $method
      * @param mixed $data
+     * @param string $enctype
      * @return Zend_Http_Response
      */
-    protected function _performPost($method, $data = null)
+    protected function _performPost($method, $data = null, $enctype = null)
     {
         $client = self::getHttpClient();
         if (is_string($data)) {
-            $client->setRawData($data);
+            $client->setRawData($data, $enctype);
         } elseif (is_array($data) || is_object($data)) {
             $client->setParameterPost((array) $data);
         }
@@ -193,13 +194,14 @@ class Zend_Rest_Client extends Zend_Service_Abstract
      *
      * @param string $path
      * @param mixed $data Raw data to send
+     * @param string $enctype Enctype to send
      * @throws Zend_Http_Client_Exception
      * @return Zend_Http_Response
      */
-    public function restPost($path, $data = null)
+    public function restPost($path, $data = null, $enctype = null)
     {
         $this->_prepareRest($path);
-        return $this->_performPost('POST', $data);
+        return $this->_performPost('POST', $data, $enctype);
     }
 
     /**
