@@ -58,7 +58,7 @@ sort($files);
 $result = 0;
 
 // run through phpunit
-while(list(, $file)=each($files)) {
+foreach ($files as $file) {
     if ($_SERVER['TRAVIS_PHP_VERSION'] == 'hhvm' && $file == 'Zend/CodeGenerator/AllTests.php') {
         echo "Skipping $file on HHVM" . PHP_EOL; //gets stuck on the HHVM
         continue;
@@ -68,7 +68,7 @@ while(list(, $file)=each($files)) {
     system($PHPUNIT . ' --stderr -d memory_limit=-1 -d error_reporting=E_ALL\&E_STRICT -d display_errors=1 ' . escapeshellarg($file), $c_result);
     echo PHP_EOL;
     echo "Finished executing {$file}" . PHP_EOL;
-    
+
     if ($c_result) {
         echo PHP_EOL . "Result of $file is $c_result" . PHP_EOL . PHP_EOL;
         $result = $c_result;
