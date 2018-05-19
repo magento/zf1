@@ -3540,9 +3540,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="EUR">
 				<displayName>युरो</displayName>
 			</currency>
-			<currency type="FIM">
-				<displayName>फीनीश मार्क्का</displayName>
-			</currency>
 			<currency type="FJD">
 				<displayName>फ़िजी का डॉलर</displayName>
 			</currency>

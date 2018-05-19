@@ -5306,11 +5306,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">euro</displayName>
 				<symbol>€</symbol>
 			</currency>
-			<currency type="FIM">
-				<displayName>Finse markka</displayName>
-				<displayName count="one">Finse markka</displayName>
-				<displayName count="other">Finse markka</displayName>
-			</currency>
 			<currency type="FJD">
 				<displayName>Fiji-dollar</displayName>
 				<displayName count="one">Fiji-dollar</displayName>

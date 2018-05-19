@@ -5295,9 +5295,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">євро</displayName>
 				<symbol draft="contributed">€</symbol>
 			</currency>
-			<currency type="FIM">
-				<displayName>фінляндська марка</displayName>
-			</currency>
 			<currency type="FJD">
 				<displayName>фіджійський долар</displayName>
 				<displayName count="one">фіджійський долар</displayName>

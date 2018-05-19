@@ -4685,11 +4685,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">ευρώ</displayName>
 				<symbol>€</symbol>
 			</currency>
-			<currency type="FIM">
-				<displayName>Μάρκο Φινλανδίας</displayName>
-				<displayName count="one">μάρκο Φινλανδίας</displayName>
-				<displayName count="other">μάρκα Φινλανδίας</displayName>
-			</currency>
 			<currency type="FJD">
 				<displayName>Δολάριο Φίτζι</displayName>
 				<displayName count="one">δολάριο Φίτζι</displayName>

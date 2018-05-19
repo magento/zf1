@@ -4422,9 +4422,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">euró</displayName>
 				<symbol>EUR</symbol>
 			</currency>
-			<currency type="FIM">
-				<displayName>Finn markka</displayName>
-			</currency>
 			<currency type="FJD">
 				<displayName>fidzsi dollár</displayName>
 				<displayName count="one">fidzsi dollár</displayName>

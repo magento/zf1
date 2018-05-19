@@ -3522,11 +3522,6 @@ Reviewed by Waris Abdukerim Janbaz <oyghan@gmail.com> of the Uyghur Computer Sci
 				<displayName count="one" draft="contributed">ياۋرو</displayName>
 				<displayName count="other" draft="contributed">ياۋرو</displayName>
 			</currency>
-			<currency type="FIM">
-				<displayName draft="contributed">فىنلاندىيە مارككاسى</displayName>
-				<displayName count="one" draft="contributed">فىنلاندىيە مارككاسى</displayName>
-				<displayName count="other" draft="contributed">فىنلاندىيە مارككاسى</displayName>
-			</currency>
 			<currency type="FJD">
 				<displayName draft="contributed">فىجى دوللىرى</displayName>
 				<displayName count="one" draft="contributed">فىجى دوللىرى</displayName>

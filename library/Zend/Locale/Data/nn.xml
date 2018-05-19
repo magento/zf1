@@ -2263,11 +2263,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one" draft="unconfirmed">euro</displayName>
 				<displayName count="other" draft="unconfirmed">euro</displayName>
 			</currency>
-			<currency type="FIM">
-				<displayName>finsk mark</displayName>
-				<displayName count="one">finsk mark</displayName>
-				<displayName count="other">finske mark</displayName>
-			</currency>
 			<currency type="FJD">
 				<displayName>fijiansk dollar</displayName>
 				<displayName count="one">fijiansk dollar</displayName>

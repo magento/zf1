@@ -4774,9 +4774,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">Euro</displayName>
 				<symbol>€</symbol>
 			</currency>
-			<currency type="FIM">
-				<displayName>Markka Finlandia</displayName>
-			</currency>
 			<currency type="FJD">
 				<displayName>Dolar Fiji</displayName>
 				<displayName count="other">Dolar Fiji</displayName>

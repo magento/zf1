@@ -4237,9 +4237,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">Евро</displayName>
 				<displayName count="other">Евро</displayName>
 			</currency>
-			<currency type="FIM">
-				<displayName>Финска марка</displayName>
-			</currency>
 			<currency type="FJD">
 				<displayName>Фиџиски долар</displayName>
 				<displayName count="one">Фиџи долар</displayName>

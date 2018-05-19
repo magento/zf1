@@ -4134,11 +4134,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">euroa</displayName>
 				<symbol>€</symbol>
 			</currency>
-			<currency type="FIM">
-				<displayName>Suomen markka</displayName>
-				<displayName count="one">Suomen markka</displayName>
-				<displayName count="other">Suomen markkaa</displayName>
-			</currency>
 			<currency type="FJD">
 				<displayName>Fidžin dollari</displayName>
 				<displayName count="one">Fidžin dollari</displayName>

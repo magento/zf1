@@ -4560,11 +4560,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">евро</displayName>
 				<symbol>€</symbol>
 			</currency>
-			<currency type="FIM">
-				<displayName>Финландска марка</displayName>
-				<displayName count="one">финландска марка</displayName>
-				<displayName count="other">финландски марки</displayName>
-			</currency>
 			<currency type="FJD">
 				<displayName>Фиджийски долар</displayName>
 				<displayName count="one">фиджийски долар</displayName>

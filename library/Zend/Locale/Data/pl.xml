@@ -4675,9 +4675,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="many">euro</displayName>
 				<displayName count="other">euro</displayName>
 			</currency>
-			<currency type="FIM">
-				<displayName>marka fińska</displayName>
-			</currency>
 			<currency type="FJD">
 				<displayName>dolar fidżi</displayName>
 				<displayName count="one">dolar fidżyjski</displayName>

@@ -3539,9 +3539,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="EUR">
 				<displayName>یوٗرو</displayName>
 			</currency>
-			<currency type="FIM">
-				<displayName>فِنِش مارکا</displayName>
-			</currency>
 			<currency type="FJD">
 				<displayName>فِجین ڈالر</displayName>
 			</currency>

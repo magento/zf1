@@ -5687,9 +5687,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other" draft="contributed">евро</displayName>
 				<symbol draft="contributed">€</symbol>
 			</currency>
-			<currency type="FIM">
-				<displayName>Финская марка</displayName>
-			</currency>
 			<currency type="FJD">
 				<displayName>Доллар Фиджи</displayName>
 				<displayName count="one" draft="contributed">доллар Фиджи</displayName>

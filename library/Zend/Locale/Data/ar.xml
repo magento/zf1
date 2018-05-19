@@ -5369,15 +5369,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other" draft="contributed">يورو</displayName>
 				<symbol>€</symbol>
 			</currency>
-			<currency type="FIM">
-				<displayName>ماركا فنلندي</displayName>
-				<displayName count="zero" draft="provisional">ماركا فنلندي</displayName>
-				<displayName count="one" draft="provisional">ماركا فنلندي</displayName>
-				<displayName count="two" draft="provisional">ماركا فنلندي</displayName>
-				<displayName count="few" draft="provisional">ماركا فنلندي</displayName>
-				<displayName count="many" draft="provisional">ماركا فنلندي</displayName>
-				<displayName count="other" draft="provisional">ماركا فنلندي</displayName>
-			</currency>
 			<currency type="FJD">
 				<displayName>دولار فيجي</displayName>
 				<displayName count="zero" draft="contributed">دولار فيجي</displayName>

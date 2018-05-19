@@ -4468,11 +4468,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">Euros</displayName>
 				<symbol draft="contributed">€</symbol>
 			</currency>
-			<currency type="FIM">
-				<displayName>Marca finlandesa</displayName>
-				<displayName count="one">Marco finlandês</displayName>
-				<displayName count="other">Marcos finlandeses</displayName>
-			</currency>
 			<currency type="FJD">
 				<displayName>Dólar fijiano</displayName>
 				<displayName count="one">Dólar fijiano</displayName>

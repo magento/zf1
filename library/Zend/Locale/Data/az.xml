@@ -3920,11 +3920,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">Avro</displayName>
 				<symbol>€</symbol>
 			</currency>
-			<currency type="FIM">
-				<displayName>Fin Markası</displayName>
-				<displayName count="one">Fin markası</displayName>
-				<displayName count="other">Fin markası</displayName>
-			</currency>
 			<currency type="FJD">
 				<displayName>Fici Dolları</displayName>
 				<displayName count="one">Fici dolları</displayName>

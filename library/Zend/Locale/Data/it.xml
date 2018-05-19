@@ -3719,9 +3719,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one" draft="contributed">euro</displayName>
 				<displayName count="other" draft="contributed">euro</displayName>
 			</currency>
-			<currency type="FIM">
-				<displayName>Markka Finlandese</displayName>
-			</currency>
 			<currency type="FJD">
 				<displayName>Dollaro delle Figi</displayName>
 				<displayName count="one" draft="contributed">dollaro delle Figi</displayName>

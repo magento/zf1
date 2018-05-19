@@ -3459,9 +3459,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">evrur</displayName>
 				<symbol draft="unconfirmed">€</symbol>
 			</currency>
-			<currency type="FIM">
-				<displayName>Finnskt mark</displayName>
-			</currency>
 			<currency type="FJD">
 				<displayName>Fídjeyskur dalur</displayName>
 				<displayName count="one">fídjeyskur dalur</displayName>

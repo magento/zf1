@@ -4687,9 +4687,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName>אירו</displayName>
 				<symbol draft="contributed">€</symbol>
 			</currency>
-			<currency type="FIM">
-				<displayName>מרק פיני</displayName>
-			</currency>
 			<currency type="FJD">
 				<displayName>דולר פיג׳י</displayName>
 			</currency>

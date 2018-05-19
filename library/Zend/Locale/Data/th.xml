@@ -6166,9 +6166,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">ยูโร</displayName>
 				<symbol>€</symbol>
 			</currency>
-			<currency type="FIM">
-				<displayName>มาร์กกาฟินแลนด์</displayName>
-			</currency>
 			<currency type="FJD">
 				<displayName>ดอลลาร์ฟิจิ</displayName>
 				<displayName count="other">ดอลลาร์ฟิจิ</displayName>

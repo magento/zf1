@@ -908,9 +908,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other" draft="unconfirmed">euro</displayName>
 				<symbol draft="unconfirmed">€</symbol>
 			</currency>
-			<currency type="FIM">
-				<displayName>suoma márkki</displayName>
-			</currency>
 			<currency type="HKD">
 				<symbol draft="unconfirmed">HK$</symbol>
 			</currency>

@@ -3806,12 +3806,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="few">euro</displayName>
 				<displayName count="other">euro</displayName>
 			</currency>
-			<currency type="FIM">
-				<displayName>marcă finlandeză</displayName>
-				<displayName count="one">mărci finlandeze</displayName>
-				<displayName count="few">mărci finlandeze</displayName>
-				<displayName count="other">mărci finlandeze</displayName>
-			</currency>
 			<currency type="FJD">
 				<displayName>dolar fijian</displayName>
 				<displayName count="one">dolar fijian</displayName>

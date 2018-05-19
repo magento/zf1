@@ -3855,11 +3855,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">Euro</displayName>
 				<symbol draft="contributed">€</symbol>
 			</currency>
-			<currency type="FIM">
-				<displayName>Finnische Mark</displayName>
-				<displayName count="one">Finnische Mark</displayName>
-				<displayName count="other">Finnische Mark</displayName>
-			</currency>
 			<currency type="FJD">
 				<displayName>Fidschi-Dollar</displayName>
 				<displayName count="one">Fidschi-Dollar</displayName>

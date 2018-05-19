@@ -6568,10 +6568,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">ユーロ</displayName>
 				<symbol>€</symbol>
 			</currency>
-			<currency type="FIM">
-				<displayName>フィンランド マルカ</displayName>
-				<displayName count="other">フィンランド マルカ</displayName>
-			</currency>
 			<currency type="FJD">
 				<displayName>フィジー諸島 ドル</displayName>
 				<displayName count="other">フィジー諸島 ドル</displayName>

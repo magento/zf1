@@ -4537,9 +4537,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">ইউরো</displayName>
 				<symbol>€</symbol>
 			</currency>
-			<currency type="FIM">
-				<displayName>ফিনিস মার্কা</displayName>
-			</currency>
 			<currency type="FJD">
 				<displayName>ফিজি ডলার</displayName>
 				<displayName count="one">ফিজি ডলার</displayName>

@@ -5549,9 +5549,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName>ເອີໂຣ</displayName>
 				<symbol>€</symbol>
 			</currency>
-			<currency type="FIM">
-				<displayName>ມາກກາ ຟິນແລນ</displayName>
-			</currency>
 			<currency type="FJD">
 				<displayName>ໂດລາ ຟິຈິ</displayName>
 			</currency>

@@ -3934,9 +3934,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">euro</displayName>
 				<symbol>€</symbol>
 			</currency>
-			<currency type="FIM">
-				<displayName draft="contributed">Đồng Markka Phần Lan</displayName>
-			</currency>
 			<currency type="FJD">
 				<displayName>Đô la Fiji</displayName>
 				<displayName count="other">đô la Fiji</displayName>

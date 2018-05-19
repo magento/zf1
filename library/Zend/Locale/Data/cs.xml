@@ -4121,13 +4121,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">eur</displayName>
 				<symbol>€</symbol>
 			</currency>
-			<currency type="FIM">
-				<displayName>finská marka</displayName>
-				<displayName count="one">finská marka</displayName>
-				<displayName count="few">finské marky</displayName>
-				<displayName count="many">finské marky</displayName>
-				<displayName count="other">finských marek</displayName>
-			</currency>
 			<currency type="FJD">
 				<displayName>fidžijský dolar</displayName>
 				<displayName count="one">fidžijský dolar</displayName>

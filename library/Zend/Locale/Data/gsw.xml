@@ -2379,11 +2379,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">Euro</displayName>
 				<displayName count="other">Euro</displayName>
 			</currency>
-			<currency type="FIM">
-				<displayName>Finnischi Mark</displayName>
-				<displayName count="one">Finnischi Mark</displayName>
-				<displayName count="other">Finnischi Mark</displayName>
-			</currency>
 			<currency type="FJD">
 				<displayName>Fidschi Dollar</displayName>
 				<displayName count="one">Fidschi Dollar</displayName>
