@@ -100,7 +100,8 @@ class Zend_Mail_Transport_Sendmail extends Zend_Mail_Transport_Abstract
             $this->recipients,
             $this->_mail->getSubject(),
             $this->body,
-            $this->header);
+            $this->header,
+            $this->_getAdditionalParameters());
         restore_error_handler();
 
         if ($this->_errstr !== null || !$result) {
@@ -202,4 +203,18 @@ class Zend_Mail_Transport_Sendmail extends Zend_Mail_Transport_Abstract
         return true;
     }
 
+    /**
+     * The additional_parameters parameter can be used to pass additional flags as command line options to the program
+     * configured to be used when sending mail, as defined by the sendmail_path configuration setting.
+     * For example, this can be used to set the envelope sender address when using sendmail with the -f sendmail option.
+     *
+     * @return null|string
+     */
+    protected function _getAdditionalParameters() {
+        if (!empty($this->_mail->getReturnPath())) {
+            return '-f ' . $this->_mail->getReturnPath();
+        }
+
+        return null;
+    }
 }
