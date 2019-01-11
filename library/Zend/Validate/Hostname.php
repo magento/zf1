@@ -109,7 +109,7 @@ class Zend_Validate_Hostname extends Zend_Validate_Abstract
 
     /**
      * Array of valid top-level-domains
-     * IanaVersion 2018013101
+     * IanaVersion 2018121300
      *
      * @see ftp://data.iana.org/TLD/tlds-alpha-by-domain.txt  List of all TLDs by domain
      * @see http://www.iana.org/domains/root/db/ Official list of supported TLDs
