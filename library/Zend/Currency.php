@@ -194,12 +194,11 @@ class Zend_Currency
                                                                'precision'     => $options['precision']));
 
         if ($options['position'] !== self::STANDARD) {
-            $value = str_replace('¤', '', $value);
             $space = '';
-            if (iconv_strpos($value, ' ') !== false) {
-                $value = str_replace(' ', '', $value);
+            if (iconv_strpos($value, '¤ ') !== false || iconv_strpos($value, ' ¤') !== false) {
                 $space = ' ';
             }
+            $value = $this->_stripCurrencyPattern($value);
 
             if ($options['position'] == self::LEFT) {
                 $value = '¤' . $space . $value;
@@ -232,13 +231,32 @@ class Zend_Currency
 
                 default:
                     $sign = '';
-                    $value = str_replace(' ', '', $value);
+                    $value = $this->_stripCurrencyPattern($value);
                     break;
             }
         }
 
         $value = str_replace('¤', $sign, $value);
         return $value;
+    }
+
+    /**
+     * Strip the currency pattern an any sorrounding
+     * whitespace from a string value
+     *
+     * @param string $value
+     * @return string
+     */
+    private function _stripCurrencyPattern($value) {
+        if (iconv_strpos($value, '¤ ') === 0) {
+            return iconv_substr($value, 2);
+        }
+        else if (iconv_strpos($value, ' ¤') === iconv_strlen($value) - 2) {
+            return iconv_substr($value, 0, iconv_strlen($value) - 2);
+        }
+        else {
+            return str_replace('¤', '', $value);
+        }
     }
 
     /**
