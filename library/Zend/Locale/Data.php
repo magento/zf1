@@ -335,9 +335,14 @@ class Zend_Locale_Data
 
         $val = urlencode($val);
         $id  = self::_filterCacheId('Zend_LocaleL_' . $locale . '_' . $path . '_' . $val);
-        if (!self::$_cacheDisabled && ($result = self::$_cache->load($id))) {
-            return unserialize($result);
+        if (!self::$_cacheDisabled && !empty(self::$_list[$id])) {
+            return self::$_list[$id];
         }
+
+        if (!self::$_cacheDisabled && ($result = self::$_cache->load($id))) {
+            self::$_list[$id] = unserialize($result);
+            return self::$_list[$id];
+         }
 
         $temp = array();
         switch(strtolower($path)) {
@@ -984,8 +989,13 @@ class Zend_Locale_Data
         }
         $val = urlencode($val);
         $id  = self::_filterCacheId('Zend_LocaleC_' . $locale . '_' . $path . '_' . $val);
+        if (!self::$_cacheDisabled && !empty(self::$_list[$id])) {
+            return self::$_list[$id];
+        }
+
         if (!self::$_cacheDisabled && ($result = self::$_cache->load($id))) {
-            return unserialize($result);
+            self::$_list[$id] = unserialize($result);
+            return self::$_list[$id];
         }
 
         switch(strtolower($path)) {
