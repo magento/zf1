@@ -303,6 +303,33 @@ class Zend_CurrencyTest extends PHPUnit_Framework_TestCase
         $this->assertSame('-₹ 3,00', $INR->toCurrency(-3));
     }
 
+    /*
+     * testing space separators
+     */
+    public function testSpaceSeparatorWithNoSymbol()
+    {
+        $HUF = new Zend_Currency('HUF','hu_HU');
+        $EUR = new Zend_Currency('USD','de_AT');
+        $USD = new Zend_Currency('USD','en_US');
+
+        $options = array(
+            'display' => Zend_Currency::NO_SYMBOL
+        );
+        $this->assertSame('53 292,18', $HUF->toCurrency(53292.18, $options));
+        $this->assertSame('53.292,18', $EUR->toCurrency(53292.18, $options));
+        $this->assertSame('53,292.18', $USD->toCurrency(53292.18, $options));
+
+        $options['position'] = Zend_Currency::LEFT;
+        $this->assertSame('53 292,18', $HUF->toCurrency(53292.18, $options));
+        $this->assertSame('53.292,18', $EUR->toCurrency(53292.18, $options));
+        $this->assertSame('53,292.18', $USD->toCurrency(53292.18, $options));
+
+        $options['position'] = Zend_Currency::RIGHT;
+        $this->assertSame('53 292,18', $HUF->toCurrency(53292.18, $options));
+        $this->assertSame('53.292,18', $EUR->toCurrency(53292.18, $options));
+        $this->assertSame('53,292.18', $USD->toCurrency(53292.18, $options));
+    }
+
     /**
      * testing setFormat
      *
