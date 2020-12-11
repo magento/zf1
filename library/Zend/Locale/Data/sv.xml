@@ -4712,11 +4712,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">euro</displayName>
 				<symbol draft="contributed">€</symbol>
 			</currency>
-			<currency type="FIM">
-				<displayName>finsk mark</displayName>
-				<displayName count="one">finsk mark</displayName>
-				<displayName count="other">finska mark</displayName>
-			</currency>
 			<currency type="FJD">
 				<displayName>Fiji-dollar</displayName>
 				<displayName count="one">Fiji-dollar</displayName>

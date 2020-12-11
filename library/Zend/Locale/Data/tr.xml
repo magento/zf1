@@ -3976,9 +3976,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">Euro</displayName>
 				<symbol>€</symbol>
 			</currency>
-			<currency type="FIM">
-				<displayName>Fin Markkası</displayName>
-			</currency>
 			<currency type="FJD">
 				<displayName>Fiji Doları</displayName>
 				<displayName count="one">Fiji doları</displayName>

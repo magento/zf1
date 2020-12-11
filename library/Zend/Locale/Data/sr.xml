@@ -5203,12 +5203,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">евра</displayName>
 				<symbol draft="contributed">€</symbol>
 			</currency>
-			<currency type="FIM">
-				<displayName>Финска марка</displayName>
-				<displayName count="one">финска марка</displayName>
-				<displayName count="few">финске марке</displayName>
-				<displayName count="other">финских марака</displayName>
-			</currency>
 			<currency type="FJD">
 				<displayName>Фиџи долар</displayName>
 				<displayName count="one">фиџи долар</displayName>

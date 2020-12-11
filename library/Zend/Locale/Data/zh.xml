@@ -5979,9 +5979,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">欧元</displayName>
 				<symbol>€</symbol>
 			</currency>
-			<currency type="FIM">
-				<displayName>芬兰马克</displayName>
-			</currency>
 			<currency type="FJD">
 				<displayName>斐济元</displayName>
 				<displayName count="other">斐济元</displayName>

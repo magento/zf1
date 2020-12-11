@@ -3820,11 +3820,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">euro</displayName>
 				<displayName count="other">euros</displayName>
 			</currency>
-			<currency type="FIM">
-				<displayName>Finnish Markka</displayName>
-				<displayName count="one">Finnish markka</displayName>
-				<displayName count="other">Finnish markkas</displayName>
-			</currency>
 			<currency type="FJD">
 				<displayName>Fijian Dollar</displayName>
 				<displayName count="one">Fijian dollar</displayName>

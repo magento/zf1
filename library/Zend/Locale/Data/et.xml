@@ -3452,9 +3452,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">eurot</displayName>
 				<symbol>€</symbol>
 			</currency>
-			<currency type="FIM">
-				<displayName>Soome mark</displayName>
-			</currency>
 			<currency type="FJD">
 				<displayName>Fidži dollar</displayName>
 				<displayName count="one">Fidži dollar</displayName>

@@ -5033,13 +5033,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="many">евра</displayName>
 				<displayName count="other">евра</displayName>
 			</currency>
-			<currency type="FIM">
-				<displayName>Финска марка</displayName>
-				<displayName count="one">финска марка</displayName>
-				<displayName count="few">финске марке</displayName>
-				<displayName count="many">финских марака</displayName>
-				<displayName count="other">финских марака</displayName>
-			</currency>
 			<currency type="FJD">
 				<displayName>Фиџи долар</displayName>
 				<displayName count="one">фиџи долар</displayName>

@@ -3723,11 +3723,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">Euro</displayName>
 				<symbol>€</symbol>
 			</currency>
-			<currency type="FIM">
-				<displayName>Finsk mark</displayName>
-				<displayName count="one">Finsk mark</displayName>
-				<displayName count="other">Finske mark</displayName>
-			</currency>
 			<currency type="FJD">
 				<displayName>Fijiansk dollar</displayName>
 				<displayName count="one">Fijiansk dollar</displayName>

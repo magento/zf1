@@ -6296,10 +6296,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">歐元</displayName>
 				<symbol>€</symbol>
 			</currency>
-			<currency type="FIM">
-				<displayName>芬蘭馬克</displayName>
-				<displayName count="other">芬蘭馬克</displayName>
-			</currency>
 			<currency type="FJD">
 				<displayName>斐濟元</displayName>
 				<displayName count="other">斐濟元</displayName>

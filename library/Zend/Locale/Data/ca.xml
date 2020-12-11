@@ -4148,11 +4148,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">euros</displayName>
 				<symbol>€</symbol>
 			</currency>
-			<currency type="FIM">
-				<displayName>marc finlandès</displayName>
-				<displayName count="one">marc finlandès</displayName>
-				<displayName count="other">marcs finlandesos</displayName>
-			</currency>
 			<currency type="FJD">
 				<displayName>dòlar fijià</displayName>
 				<displayName count="one">dòlar fijià</displayName>

@@ -4321,9 +4321,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">eiro</displayName>
 				<symbol>€</symbol>
 			</currency>
-			<currency type="FIM">
-				<displayName>Somijas marka</displayName>
-			</currency>
 			<currency type="FJD">
 				<displayName>Fidži dolārs</displayName>
 				<displayName count="zero">Fidži dolāri</displayName>

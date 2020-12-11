@@ -4579,9 +4579,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">ევრო</displayName>
 				<symbol>€</symbol>
 			</currency>
-			<currency type="FIM">
-				<displayName draft="contributed">ფინური მარკა</displayName>
-			</currency>
 			<currency type="FJD">
 				<displayName>ფიჯის დოლარი</displayName>
 				<displayName count="one">ფიჯის დოლარი</displayName>

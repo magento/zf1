@@ -5196,9 +5196,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName>유로화</displayName>
 				<symbol draft="contributed">€</symbol>
 			</currency>
-			<currency type="FIM">
-				<displayName>핀란드 마르카</displayName>
-			</currency>
 			<currency type="FJD">
 				<displayName>피지 달러</displayName>
 			</currency>

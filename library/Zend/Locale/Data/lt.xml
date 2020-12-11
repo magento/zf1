@@ -4968,13 +4968,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="many">euro</displayName>
 				<displayName count="other">eurų</displayName>
 			</currency>
-			<currency type="FIM">
-				<displayName>Suomijos markė</displayName>
-				<displayName count="one">Suomijos markė</displayName>
-				<displayName count="few">Suomijos markės</displayName>
-				<displayName count="many">Suomijos markės</displayName>
-				<displayName count="other">Suomijos markės</displayName>
-			</currency>
 			<currency type="FJD">
 				<displayName>Fidžio doleris</displayName>
 				<displayName count="one">Fidžio doleris</displayName>

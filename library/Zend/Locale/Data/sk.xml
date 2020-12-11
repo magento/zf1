@@ -3604,9 +3604,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">eur</displayName>
 				<symbol draft="contributed">€</symbol>
 			</currency>
-			<currency type="FIM">
-				<displayName>Finská marka</displayName>
-			</currency>
 			<currency type="FJD">
 				<displayName>Fidžijský dolár</displayName>
 				<displayName count="one">fidžijský dolár</displayName>

@@ -1084,9 +1084,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="EUR">
 				<displayName>Euro</displayName>
 			</currency>
-			<currency type="FIM">
-				<displayName>Markka Fionnlannach</displayName>
-			</currency>
 			<currency type="FJD">
 				<displayName>Dollar Fhidsí</displayName>
 			</currency>

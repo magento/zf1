@@ -2128,9 +2128,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="EUR">
 				<displayName draft="contributed">euro</displayName>
 			</currency>
-			<currency type="FIM">
-				<displayName draft="contributed">marc finlandais</displayName>
-			</currency>
 			<currency type="FJD">
 				<displayName draft="contributed">dollar dal Fidschi</displayName>
 			</currency>

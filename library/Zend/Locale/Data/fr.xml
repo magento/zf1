@@ -5150,11 +5150,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">euros</displayName>
 				<symbol>€</symbol>
 			</currency>
-			<currency type="FIM">
-				<displayName>mark finlandais</displayName>
-				<displayName count="one">mark finlandais</displayName>
-				<displayName count="other">marks finlandais</displayName>
-			</currency>
 			<currency type="FJD">
 				<displayName>dollar fidjien</displayName>
 				<displayName count="one">dollar fidjien</displayName>

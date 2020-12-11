@@ -4681,11 +4681,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">യൂറോ</displayName>
 				<symbol>€</symbol>
 			</currency>
-			<currency type="FIM">
-				<displayName>ഫിന്നിഷ് മാർക്ക</displayName>
-				<displayName count="one">ഫിന്നിഷ് മാർക്ക</displayName>
-				<displayName count="other">ഫിന്നിഷ് മാർക്കാസ്</displayName>
-			</currency>
 			<currency type="FJD">
 				<displayName>ഫിജിയൻ ഡോളർ</displayName>
 				<displayName count="one">ഫിജിയൻ ഡോളർ</displayName>

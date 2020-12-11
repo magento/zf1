@@ -3770,13 +3770,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="many">evra</displayName>
 				<displayName count="other">evra</displayName>
 			</currency>
-			<currency type="FIM">
-				<displayName>Finska marka</displayName>
-				<displayName count="one">finska marka</displayName>
-				<displayName count="few">Finske marke</displayName>
-				<displayName count="many">Finskih maraka</displayName>
-				<displayName count="other">finskih maraka</displayName>
-			</currency>
 			<currency type="FJD">
 				<displayName>Fidži dolar</displayName>
 				<displayName count="one">fidži dolar</displayName>
