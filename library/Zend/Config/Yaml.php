@@ -279,6 +279,18 @@ class Zend_Config_Yaml extends Zend_Config
     }
 
     /**
+     * @param array $array
+     * @return array|bool
+     */
+    protected static function _each(array &$array)
+    {
+        $key = key($array);
+        $current = current($array);
+        next($array);
+        return is_null($key) ? false : [$key, $current, 'key' => $key, 'value' => $current];
+    }
+
+    /**
      * Service function to decode YAML
      *
      * @param  int $currentIndent Current indent level
@@ -289,7 +301,7 @@ class Zend_Config_Yaml extends Zend_Config
     {
         $config   = array();
         $inIndent = false;
-        foreach ($line as $n => $line) {
+        while (list($n, $line) = self::_each($lines)) {
             $lineno = $n + 1;
 
             $line = rtrim(preg_replace("/#.*$/", "", $line));
